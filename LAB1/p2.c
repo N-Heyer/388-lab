@@ -6,7 +6,7 @@ int main() {
     int max = array[0];
     int min = array[0];
 
-    // Loop through the rest of the array
+    // for loop to loop indiv thru array
     for (int i = 1; i < 10; i++) {
         if (array[i] > max) {
             max = array[i];
