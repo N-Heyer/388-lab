@@ -6,7 +6,6 @@ int main() {
     int max = array[0];
     int min = array[0];
 
-    // for loop to loop indiv thru array
     for (int i = 1; i < 10; i++) {
         if (array[i] > max) {
             max = array[i];
@@ -16,8 +15,20 @@ int main() {
         }
     }
 
-    printf("Maximum value = %d\n", max);
-    printf("Minimum value = %d\n", min);
+    char choice;
+    printf("Enter 'm' for max, 'n' for min, or 'b' for both: ");
+    scanf(" %c", &choice); 
+
+    if (choice == 'm' || choice == 'M') {
+        printf("Maximum value = %d\n", max);
+    } else if (choice == 'n' || choice == 'N') {
+        printf("Minimum value = %d\n", min);
+    } else if (choice == 'b' || choice == 'B') {
+        printf("Maximum value = %d\n", max);
+        printf("Minimum value = %d\n", min);
+    } else {
+        printf("Invalid choice!\n");
+    }
 
     return 0;
 }
