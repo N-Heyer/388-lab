@@ -9,7 +9,6 @@ int main() {
 
     temp_ptr = &temp;
 
-    // Outputs
     printf("%d\n", temp);
     printf("%d\n", *temp_ptr);
     printf("%p\n", (void*)&temp);
