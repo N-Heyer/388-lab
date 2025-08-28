@@ -38,7 +38,8 @@ int main()
         printf("Enter the second number: ");
         scanf("%d", &b);
 
-        switch(op) {
+        switch(op) 
+        {
             case '+':
                 result = a + b;
                 printf("Result: %d\n", result);
