@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    int array[10] = {500, 1, 255, 7, -12, 40, 42, 999, 50, 227};
+    int array[10] = {500, 1, 255, 7, -12, 40, 42, 999, 50, 227}; //declare array w spec ints
 
-    int max = array[0];
-    int min = array[0];
+    int max = array[0]; // assume first element
+    int min = array[0]; // ^^
 
-    for (int i = 1; i < 10; i++) {
+    for (int i = 1; i < 10; i++) { 
         if (array[i] > max) {
             max = array[i];
         }

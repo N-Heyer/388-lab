@@ -1,15 +1,3 @@
-/*
-Write a program that will work as a basic calculator that can perform addition, subtraction,
-multiplication, division, squaring (for e.g. 32), and cubing (e.g. 33), on user input data for
-two operands (or one for squaring and cubing). You can assume all operands will be of
-type int. The program should first ask for the operation, then ask for the operands. The
-input for type of operation will be a char, and ‘+’ indicates addition, ‘-’ indicates
-subtraction, ‘*’ indicates multiplication, ‘/’ indicates division, ‘s’ indicates squaring, and
-‘c’ indicates cubing. If the operation is not squaring or cubing, then the program asks for
-the second operand and then computes the result. Otherwise, it goes directly to
-computing the square or cube. Your program should output a single number as the result
-of the operation. An example of one possible run of the program is given below:
-*/
 
 #include <stdio.h>
 
